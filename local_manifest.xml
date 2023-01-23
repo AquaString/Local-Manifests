@@ -19,7 +19,8 @@
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jabi" revision="12"  clone-depth="1"/>
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
- <remove-project name="hardware/xiaomi" />
+ <remove-project name="hardware/google/pixel/kernel_headers/Android.bp" />
+ <remove-project name="hardware/xiaomi/megvii" />
  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lg" revision="lineage-20" />
 
 </manifest>
